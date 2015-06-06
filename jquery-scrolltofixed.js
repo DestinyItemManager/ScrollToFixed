@@ -455,7 +455,7 @@
 
             // Create a spacer element to fill the void left by the target
             // element when it goes fixed.
-            spacer = $('<div />');
+            spacer = $('<div class="fixed-header-placeholder" />');
 
             position = target.css('position');
             originalPosition = target.css('position');
